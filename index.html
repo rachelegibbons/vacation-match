@@ -1,0 +1,58 @@
+<!DOCTYPE=HTML>
+<html>
+  <head>
+    <title>Vacation Match</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vacation Matchmaker</h1>
+      <p>To find your perfect vacation destination please fill out the form below.</p>
+      <form id="input">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input id="nameInput" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="ageInput">Age</label>
+          <input id="ageInput" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="typeInput">What are you looking to do?</label>
+          <select class="form-control" id="typeInput">
+            <option value="relax">Relax</option>
+            <option value="beActive">Be Active</option>
+            <option value="sightSee">Sight See</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="temperatureInput">Do you prefer hot or cold weather?</label>
+          <select class="form-control" id="temperatureInput">
+            <option value="hot">Hot</option>
+            <option value="cold">Cold</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="favoriteDestinationInput">What is your current favorite vacation destination?</label>
+          <input id="favoriteSDestinationInput" class="form-control" type="text">
+        </div>
+        <button type="submit" id="submit" class="btn btn-success">Meet your Match</button>
+      </form>
+      <div id="hawaii">
+        <h2>Your perfect vacation destination is Hawaii!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo neque a nisi ornare eleifend. Duis hendrerit metus non erat hendrerit, et rhoncus velit viverra. Quisque lorem mauris, dictum vel quam eu, hendrerit fermentum turpis.</p>
+      </div>
+      <div id="philadelphia">
+        <h2>Your perfect vacation destination is Philadelphia!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo neque a nisi ornare eleifend. Duis hendrerit metus non erat hendrerit, et rhoncus velit viverra. Quisque lorem mauris, dictum vel quam eu, hendrerit fermentum turpis.</p>
+      </div>
+      <div id="mtBachelor">
+        <h2>Your perfect vacation destination is Mount Bachelor!</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo neque a nisi ornare eleifend. Duis hendrerit metus non erat hendrerit, et rhoncus velit viverra. Quisque lorem mauris, dictum vel quam eu, hendrerit fermentum turpis.</p>
+      </div>
+    </div>
+  </body>
+  </html>
