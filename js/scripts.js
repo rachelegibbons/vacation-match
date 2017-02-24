@@ -19,14 +19,28 @@ $(document).ready(function(){
     } else {
       $("form").hide();
       $("#noMatch").show();
+      $(".name").text(name);
     }
 
-    /*
-    console.log(name);
-    console.log(age);
-    console.log(type);
-    console.log(temperature);
-    console.log(favoriteDestination); */
+    $("#returnHawaii").click(function(){
+      $("#hawaii").hide();
+      $("form").show();
+    });
+
+    $("#returnPhiladelphia").click(function(){
+      $("#philadelphia").hide();
+      $("form").show();
+    });
+
+    $("#returnBachelor").click(function(){
+      $("#mtBachelor").hide();
+      $("form").show();
+    });
+
+    $("#returnNoMatch").click(function(){
+      $("#noMatch").hide();
+      $("form").show();
+    });
 
   });
 
