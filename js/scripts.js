@@ -9,16 +9,16 @@ $(document).ready(function(){
 
     if (type === "relax" && temperature === "hot") {
       $("form").hide();
-      $("#hawaii").show();
+      $("#hawaii").slideToggle();
     } else if (type === "beActive" && temperature === "cold") {
       $("form").hide();
-      $("#mtBachelor").show();
+      $("#mtBachelor").slideToggle();
     } else if (type === "sightSee") {
       $("form").hide();
-      $("#philadelphia").show();
+      $("#philadelphia").slideToggle();
     } else {
       $("form").hide();
-      $("#noMatch").show();
+      $("#noMatch").slideToggle();
       $(".name").text(name);
     }
 
