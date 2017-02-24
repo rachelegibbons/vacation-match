@@ -1,3 +1,78 @@
-#hawaii, #philadelphia, #mtBachelor, #noMatch {
+.container {
+  width: 100%;
+}
+/*#hawaii, #philadelphia, #mtBachelor, #noMatch {
   display: none;
+}*/
+
+body {
+  background-color: rgb(91%, 81%, 0%);
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 74px;
+  color: white;
+}
+
+#header {
+  color: white;
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-color: rgb(100%, 37%, 2%);
+}
+
+#header p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+#input {
+  padding: 120px 40px;
+  color: white;
+  background-color: rgb(0%, 71%, 83%);
+  font-weight: 300;
+}
+
+label {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+#hawaii {
+  padding: 120px 40px;
+  background-color: rgb(91%, 81%, 0%);
+}
+
+#philadelphia {
+  padding: 120px 40px;
+  background-color: rgb(71%, 95%, 15%);
+}
+
+#mtBachelor {
+  color: white;
+  padding: 120px 40px;
+  background-color: rgb(0%, 47%, 86%);
+}
+
+#mtBachelor p {
+  padding-bottom: 20px;
+}
+
+#noMatch {
+  color: white;
+  padding: 120px 40px;
+  background-color: rgb(96%, 11%, 21%);
+}
+
+#tryAgain {
+  background-color: rgb(0%, 47%, 86%);
+  color: white;
+  border: 1px solid;
+  border-radius: 0px;
+  padding: 15px 20px;
+
 }
