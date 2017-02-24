@@ -10,12 +10,15 @@ $(document).ready(function(){
     if (type === "relax" && temperature === "hot") {
       $("form").hide();
       $("#hawaii").show();
-    } else if (type === "sightSee" && temperature === "hot" || "cold") {
-      $("form").hide();
-      $("#philadelphia").show();
     } else if (type === "beActive" && temperature === "cold") {
       $("form").hide();
       $("#mtBachelor").show();
+    } else if (type === "sightSee" && temperature === "hot" || "cold") {
+      $("form").hide();
+      $("#philadelphia").show();
+    } else {
+      $("form").hide();
+      $("#noMatch").show();
     }
 
     /*
