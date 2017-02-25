@@ -9,37 +9,40 @@ $(document).ready(function(){
 
     if (type === "relax" && temperature === "hot") {
       $("form").hide();
-      $("#hawaii").show();
+      $("#hawaii").slideToggle();
+      $(".name").text(name);
     } else if (type === "beActive" && temperature === "cold") {
       $("form").hide();
-      $("#mtBachelor").show();
+      $("#mtBachelor").slideToggle();
+      $(".name").text(name);
     } else if (type === "sightSee") {
       $("form").hide();
-      $("#philadelphia").show();
+      $("#philadelphia").slideToggle();
+      $(".name").text(name);
     } else {
       $("form").hide();
-      $("#noMatch").show();
+      $("#noMatch").slideToggle();
       $(".name").text(name);
     }
 
     $("#returnHawaii").click(function(){
       $("#hawaii").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
     $("#returnPhiladelphia").click(function(){
       $("#philadelphia").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
     $("#returnBachelor").click(function(){
       $("#mtBachelor").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
     $("#returnNoMatch").click(function(){
       $("#noMatch").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
   });

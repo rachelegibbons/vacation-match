@@ -8,19 +8,21 @@
 body {
   font-family: 'Work Sans', sans-serif;
   color: black;
+
   text-align: center;
 }
 
-img {
-  max-width: 10%;
+.icon {
+  width: 40px !important;
+  height: 40px !important;
 }
 
 /* Header Styling */
 #header {
   color: white;
   margin: auto;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   text-align: center;
   background-color: rgb(100%, 37%, 2%);
 }
@@ -36,14 +38,22 @@ img {
   font-weight: 300;
 }
 
+.arrow {
+  width: 60px !important;
+  height: 60px !important;
+  padding-top: 40px;
+}
+
 /* Form Styling */
 #input {
-  padding: 80px 40px;
+  padding: 40px 40px;
   color: black;
-  background-color: rgb(29%, 89%, 84%);
   font-weight: 300;
-  text-align: left;
+  text-align: center;
+}
 
+.form-control {
+  text-align: center;
 }
 
 label {
@@ -52,8 +62,8 @@ label {
 }
 
 #submit {
-  background-color: rgb(29%, 89%, 84%);
-  color: black;
+  background-color: white;
+  color: rgb(100%, 37%, 2%);
   border: 1px solid;
   border-radius: 0px;
   padding: 15px 20px;
@@ -61,8 +71,8 @@ label {
 }
 
 #submit:hover {
-  background-color: black;
-  color: rgb(29%, 89%, 84%);
+  background-color: rgb(100%, 37%, 2%);
+  color: white;
 }
 
 /* Hawaii Styling */
@@ -70,6 +80,7 @@ label {
 #hawaii {
   padding: 120px 40px;
   background-color: rgb(91%, 81%, 0%);
+  text-align: center;
 }
 
 #hawaii p {
@@ -94,6 +105,7 @@ label {
 #philadelphia {
   padding: 120px 40px;
   background-color: rgb(71%, 95%, 15%);
+  text-align: center;
 }
 
 #Philadelphia p {
@@ -119,6 +131,7 @@ label {
   color: white;
   padding: 120px 40px;
   background-color: rgb(0%, 47%, 86%);
+  text-align: center;
 }
 
 #mtBachelor p {
@@ -141,12 +154,18 @@ label {
 
 #noMatch {
   color: white;
-  padding: 120px 40px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   background-color: rgb(96%, 11%, 21%);
 }
 
-#noMatch h3 {
-  padding-bottom: 20px;
+#noMatch a {
+  color: white;
+  font-style: normal;
+}
+
+#noMatch a:hover {
+  text-decoration: underline;
 }
 
 #returnNoMatch {
