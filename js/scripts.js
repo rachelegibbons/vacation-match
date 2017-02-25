@@ -10,12 +10,15 @@ $(document).ready(function(){
     if (type === "relax" && temperature === "hot") {
       $("form").hide();
       $("#hawaii").slideToggle();
+      $(".name").text(name);
     } else if (type === "beActive" && temperature === "cold") {
       $("form").hide();
       $("#mtBachelor").slideToggle();
+      $(".name").text(name);
     } else if (type === "sightSee") {
       $("form").hide();
       $("#philadelphia").slideToggle();
+      $(".name").text(name);
     } else {
       $("form").hide();
       $("#noMatch").slideToggle();
@@ -24,22 +27,22 @@ $(document).ready(function(){
 
     $("#returnHawaii").click(function(){
       $("#hawaii").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
     $("#returnPhiladelphia").click(function(){
       $("#philadelphia").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
     $("#returnBachelor").click(function(){
       $("#mtBachelor").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
     $("#returnNoMatch").click(function(){
       $("#noMatch").hide();
-      $("form").show();
+      $("form").slideDown();
     });
 
   });
